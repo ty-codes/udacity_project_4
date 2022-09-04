@@ -6,13 +6,13 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath=egypt28/ml-api
+dockerpath=tycodes/ml-api
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 
-docker login -u egypt28
+docker login -u tycodes
 docker tag ml-api $dockerpath:latest
 
 # Step 3:
